@@ -1,0 +1,7 @@
+services:
+  brta:
+    build: .
+    container_name: brta
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
